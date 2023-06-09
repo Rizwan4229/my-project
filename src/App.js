@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <h1>Hello, React!</h1>
-      {isDocker ? <p>Running inside Docker</p> : <p>Running on local pascaline system</p>}
+      {isDocker ? <p>Running inside Docker</p> : <p>Running on local system</p>}
     </div>
   );
 }
